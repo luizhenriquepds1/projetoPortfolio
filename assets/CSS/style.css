@@ -66,3 +66,66 @@ body{
     background-color: #e1e1e1;
     transition: 0.3s;
 }
+
+.sobre{
+    background-color: #e1e1e1;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+.sobre div{
+    max-width: 50%;
+    padding-right: 40px;
+}
+.sobre h2 {
+    margin-bottom: 14px;
+    font-size: 31px;
+}
+.sobre img{
+    max-width: 40%;
+    border-radius: 8px;
+}
+
+.projetos{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+.lista-projetos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lista-projetos img{
+    width: 22%;
+    border-radius: 8px;
+    /*margin-left: 0.5%;
+    margin-right: 0.5%;*/
+    cursor: pointer;
+    margin: 10px 10px;
+    opacity: 0.8;
+}
+.lista-projetos img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.projetos h2{
+    font-size: 31px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.projetos p{
+    margin-bottom: 8px;
+}
