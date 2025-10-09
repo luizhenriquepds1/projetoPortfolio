@@ -13,7 +13,13 @@ body{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 9;
     
+}
+html{
+    scroll-behavior: smooth;
 }
 .nav-list{
     display: flex;
@@ -151,4 +157,41 @@ footer{
     color: #a4a4a4;
     padding: 20px 0;
     text-align: center;
+}
+
+.footer:hover{
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+    .main h1{
+        font-size: 42px;
+    }
+    .main {
+        background-size: cover;
+    }
+    .sobre{
+        flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sobre div{
+        max-width: 80%;  
+    }
+    .sobre div h2{
+        text-align: center;
+    }
+    .sobre img{
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    .projetos img{
+        width: 27.5%;
+    }
+    
 }
